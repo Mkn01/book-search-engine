@@ -1,7 +1,7 @@
 const { ApolloError } = require("apollo-server");
 
 const { User } = require("../models");
-const { signToken } = require("../utils/auth");
+const { signToken } = require("../utility/auth");
 
 const signup = async (_, { input }) => {
   const user = await User.create(input);
