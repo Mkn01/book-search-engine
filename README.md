@@ -27,4 +27,4 @@ MIT License
 
 Visit GitHub repository [here](https://github.com/Mkn01/book-search-engine/tree/dev)
 
-Visit Deployed app on heroku [here]()
+Visit Deployed app on heroku [here](https://tranquil-ridge-39247.herokuapp.com)
