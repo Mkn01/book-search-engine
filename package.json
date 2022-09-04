@@ -6,7 +6,7 @@
   "scripts": {
     "start": "mode server/server.js",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "instal": "cd server && npm i && cd ../client && npm i",
+    "install": "cd server && npm i && cd ../client && npm i",
     "build": "cd client && npm run build"
   },
   "repository": {
@@ -16,6 +16,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "18.2.0"
+  },
   "bugs": {
     "url": "https://github.com/Mkn01/book-search-engine/issues"
   },
