@@ -27,4 +27,4 @@ MIT License
 
 Visit GitHub repository [here](https://github.com/Mkn01/book-search-engine/tree/dev)
 
-Visit Deployed app on heroku [here](https://a-text-editor.herokuapp.com//)
+Visit Deployed app on heroku [here]()
