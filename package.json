@@ -1,0 +1,33 @@
+{
+  "name": "book-search-engine",
+  "version": "1.0.0",
+  "description": "- [Description](#description)\r - [User Story](#user-story)\r - [License](#license)\r - [Deployment](#deployment)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "start:server": "cd server && npm run watch",
+    "start:client": "cd client && npm start",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mkn01/book-search-engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mkn01/book-search-engine/issues"
+  },
+  "homepage": "https://github.com/Mkn01/book-search-engine#readme",
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  },
+  "dependencies": {
+    "apollo": "^2.34.0",
+    "apollo-server": "^3.10.2",
+    "graphql": "^16.6.0"
+  }
+}
